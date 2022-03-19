@@ -1,0 +1,120 @@
+.container{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    
+}
+
+.container .logout{
+    width: 8%;
+    height: 35px;
+    background: #469536;
+    border:0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    transition: filter;
+    margin-left: 100%;
+    
+}
+
+.container section.formulario{
+    display: flex;
+    align-items: center;
+    
+}
+.container section form .titulo{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.container section form .inputCodigo {
+    width: 35%;
+    height: 40px;
+    color: #333;
+    border: 2px solid #dcdce6;
+    border-radius: 4px;
+    padding: 0 24px;
+    margin-left: 20px;
+}
+
+.container section form .buttonCodigo {
+    width: 20%;
+    height: 37px;
+    background: #469536;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: border-color 0.2s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    transition: filter;
+    border: 0;
+    margin-left: 16px;
+   
+}
+
+.buttonCodigo:hover {
+    filter: brightness(90%);
+}
+
+.container ul {
+    padding: 16px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    list-style: none;   
+}
+
+.container ul li {
+    background: #f3f3f3;
+    padding: 24px;
+    border-radius: 8px;
+    border: solid;
+    border-color: #dcdce6;
+    font-size: 16px;
+    position: relative;
+    
+}
+.container ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+.container ul li p + strong {
+    margin-top: 20px;
+}
+
+.container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+.container ul li button {
+    background: transparent;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    position: absolute;
+    
+}
+
+.container ul li button:hover {
+    opacity: 0.10;
+}
+
+.container .editar{
+    margin-right: 30px;
+}
